@@ -1,0 +1,31 @@
+.feed {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    grid-column-gap: 16px;
+    grid-row-gap:30px;
+    margin-top:15px;
+}
+
+
+.card img{
+    border-radius: 12px;
+    width: 100%;
+}
+
+.card h2{
+    font-size: 16px;
+    margin: 5px 0;
+    color: #292a2b;
+}
+
+.card h3{
+    font-size: 15px;
+    font-weight: 500;
+    margin: 6px 0;
+    color: #555;
+}
+
+.card p{
+    font-size: 15px;
+    color: #555;
+}
